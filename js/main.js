@@ -1,7 +1,7 @@
 /* Thinny Theme Scripts */
 
 (function($){ "use strict";
-             
+
     $(window).on('load', function() {
         $('body').addClass('loaded');
     });
@@ -9,7 +9,7 @@
 
 /*=========================================================================
 	Sticky Header
-=========================================================================*/ 
+=========================================================================*/
 	$(function() {
 		var header = $("#header"),
 			yOffset = 0,
@@ -28,12 +28,12 @@
         $('.header_height').css( 'margin-top', headerHeight );
 	})
 
-         
+
 /*=========================================================================
     Typed js Active
 =========================================================================*/
     $(".typed").typed({
-        strings: ["Jhon Doe.", "Designer.", "Creative."],
+        strings: ["Tapas Nath.", "Web Designer.", "HTML Devloper."],
         loop: true,
         typeSpeed: 150
     });
@@ -52,7 +52,7 @@
             cursorborderradius: "0px",
             autohidemode: false,
             zindex: "999"
-        });  
+        });
     });
 
 /*=========================================================================
@@ -79,9 +79,9 @@
 	            items:4
 	        }
 	    }
-        
-    });             
-             
+
+    });
+
 /*=========================================================================
     Isotope Active
 =========================================================================*/
@@ -91,7 +91,7 @@
 		$('.portfolio_filter li').on( 'click', function(){
 	        $(".portfolio_filter li").removeClass("active");
 	        $(this).addClass("active");
-	 
+
 	        var selector = $(this).attr('data-filter');
 	        $(".portfolio_items").isotope({
 	            filter: selector,
@@ -110,7 +110,7 @@
 	    });
 	});
 
-			 
+
 /*=========================================================================
     Initialize smoothscroll plugin
 =========================================================================*/
@@ -125,11 +125,11 @@
 	vbSelector.venobox({
 		numeratio: true,
 		infinigall: true
-	}); 
-				 
+	});
+
 /*=========================================================================
     Scroll To Top
-=========================================================================*/     
+=========================================================================*/
     $(window).on( 'scroll', function () {
         if ($(this).scrollTop() > 100) {
             $('#scroll-to-top').fadeIn();
