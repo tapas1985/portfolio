@@ -1,23 +1,5 @@
-/* Thinny By TeamXcel */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700|Roboto');
 
-/*  ==========================================================================
-    Table of Contets
-    ==========================================================================
-    
-    1.0 Common Styles
-    2.0 Hero Section
-    3.0 About Section
-    4.0 Portfolio Section
-    5.0 Contact Section
-    6.0 Footer Section
-    7.0 Scroll to Top
-
-    ==========================================================================
-    Thinny
-    ========================================================================== */
-
-	@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700|Roboto');
-	
 /*  ==========================================================================
     Common Styles
     ========================================================================== */
@@ -101,17 +83,17 @@ textarea::-webkit-input-placeholder{
 
 input:-moz-placeholder,
 textarea:-moz-placeholder{ /* Firefox 18- */
-   color: #ddd !important;  
+   color: #ddd !important;
 }
 
 input::-moz-placeholder,
 textarea::-moz-placeholder{  /* Firefox 19+ */
-   color: #ddd !important;  
+   color: #ddd !important;
 }
 
 input:-ms-input-placeholder,
-textarea:-ms-input-placeholder{  
-   color: #ddd !important;  
+textarea:-ms-input-placeholder{
+   color: #ddd !important;
 }
 button{
     border: none;
@@ -263,7 +245,8 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
    ========================================================================== */
 .hero_section{
     background-image: url(../img/hero-image.jpg);
-    background-position: center center;
+    /* background-position: center center; */
+    background-position: center top;
     background-attachment: scroll;
     background-repeat: no-repeat;
     width: 100%;
@@ -388,9 +371,30 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
 .portfolio_section .portfolio_items li{
 	padding: 1px;
 }
-.portfolio_section .portfolio_items .portfolio_item{
+.portfolio_section .portfolio_item .portfolio_item{
 	position: relative;
 	overflow: hidden;
+}
+.portfolio_section .portfolio_item .external-link {
+    position: absolute;
+    width: calc(100% - 30px);
+    bottom: 15px;
+    text-align: center;
+    padding: 10px 5px;
+    background-color: #fff;
+    z-index: 99;
+    color: #000;
+    left: 15px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s ease-in-out;
+}
+.portfolio_section .portfolio_item .external-link i {
+    margin: 0 5px 0 0;
+}
+.portfolio_section .portfolio_item:hover .external-link {
+    visibility: visible;
+    opacity: 1;
 }
 .portfolio_items .portfolio_item .hover_effect{
     padding: 15px;
@@ -471,7 +475,7 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
 .footer_section .copyright{
     font-size: 12px;
     color: #ddd;
-}  
+}
 .footer_social{
     display: block;
     text-align: right;
