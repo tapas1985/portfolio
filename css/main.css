@@ -232,6 +232,7 @@ body.loaded #preloader{
     font-size: 17px;
     line-height: 56px;
     padding: 0 45px;
+    margin: 10px;
 }
 .thinny_btn:focus,
 .thinny_btn:hover{
