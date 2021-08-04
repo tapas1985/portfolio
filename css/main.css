@@ -227,6 +227,12 @@ body.loaded #preloader{
     display: inline-block;
     padding: 0 25px;
 }
+.thinny_btn.big {
+    border-radius: 30px;
+    font-size: 17px;
+    line-height: 56px;
+    padding: 0 45px;
+}
 .thinny_btn:focus,
 .thinny_btn:hover{
     color: #fff;
