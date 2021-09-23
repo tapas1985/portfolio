@@ -400,6 +400,10 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
     visibility: hidden;
     transition: all 0.5s ease-in-out;
 }
+.portfolio_section .portfolio_item .external-link.link-two {
+    bottom: 58px;
+    border-bottom: 1px dashed #000;
+}
 .portfolio_section .portfolio_item .external-link i {
     margin: 0 5px 0 0;
 }
