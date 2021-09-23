@@ -365,7 +365,7 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
 	color: #999;
 	display: inline-block;
 	margin-left: -4px;
-	padding: 10px 12px;
+	padding: 10px 20px;
 	transition: all 0.5s ease-in-out;
 	cursor: pointer;
     font-weight: 600;
