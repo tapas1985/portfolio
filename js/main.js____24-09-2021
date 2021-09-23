@@ -33,7 +33,7 @@
     Typed js Active
 =========================================================================*/
     $(".typed").typed({
-        strings: ["Tapas Nath", "Front-End Developer", "Web Designer", "HTML Devloper"],
+        strings: ["Tapas Nath.", "Web Designer.", "HTML Devloper."],
         loop: true,
         typeSpeed: 150
     });

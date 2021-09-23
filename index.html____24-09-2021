@@ -1,0 +1,696 @@
+<!doctype html>
+<html>
+<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Tapas Nath | Web Designer | Portfolio.">
+        <title>Tapas Nath | Portfolio</title>
+		<link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/elegant-font-icons.css">
+        <link rel="stylesheet" href="css/elegant-line-icons.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/animate.min.css">
+        <link rel="stylesheet" href="css/venobox/venobox.css">
+        <link rel="stylesheet" href="css/owl.carousel.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/menu.css">
+        <link rel="stylesheet" href="css/responsive.css">
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"  />
+    </head>
+    <body data-spy="scroll" data-target="#navbar" data-offset="60">
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <div id="preloader">
+            <div class="loader">
+                <img src="img/three-dots.svg" width="60" alt="Loader">
+            </div>
+        </div>
+        <header id="header" class="header_section">
+			<nav id="navbar_wrap" class="navbar header_1 header">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="nav-btn navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a href="index.html" class="brand">
+						    <img class="logo_dark" src="img/logo.png" alt="Logo">
+						</a>
+					</div>
+					<div id="navbar" class="collapse navbar-collapse navbar-right">
+						<ul class="nav navbar-nav nav-menu">
+                            <li class="active"><a data-scroll href="#home">Home <span class="sr-only">(current)</span></a></li>
+							<li><a data-scroll href="#portfolio">Portfolio</a></li>
+							<li><a data-scroll href="#contact">Contact</a></li>
+                        </ul>
+                        <a class="thinny_btn" href="resume/TapasNath-Resume.pdf" target="_blank">Download Resume</a>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<section id="home" class="hero_section bd-bottom header_height">
+            <div class="container">
+                <div class="profile_info">
+                   <div class="profile_inner">
+                       <div class="profile_image"></div>
+                        <div class="hero_content">
+                            <h1>I'm <span class="typed"></span></h1>
+                            <P>A front-end developer.</P>
+                        </div>
+                   </div>
+                </div>
+            </div>
+        </section>
+        <section class="about_section bg-grey bd-bottom padding">
+            <div class="container">
+                <div class="about_content section_heading align-center mb-40">
+                    <h2>What I Do</h2>
+                    <p>Visit my portfolio and keep your feedback</p>
+                </div>
+                <div id="service-carousel" class=" owl-carousel service_list">
+                    <div class="service_item">
+                        <div class="service_content">
+                            <img src="img/front-end-developer.png" alt="Front-End Developer" />
+                            <h3>Front-End Developer</h3>
+                        </div>
+                    </div>
+                    <div class="service_item">
+                        <div class="service_content">
+                            <img src="img/web-design.png" alt="Web Design" />
+                            <h3>Web Design</h3>
+                        </div>
+                    </div>
+                    <div class="service_item">
+                        <div class="service_content">
+                            <img src="img/html-developer.png" alt="HTML Developer" />
+                            <h3>HTML Developer</h3>
+                        </div>
+                    </div>
+                    <div class="service_item">
+                        <div class="service_content">
+                            <img src="img/mobile-app-design.png" alt="Mobile App Design">
+                            <h3>Mobile App Design</h3>
+                        </div>
+                    </div>
+                    <div class="service_item">
+                        <div class="service_content">
+                            <img src="img/logo-design.png" alt="Logo Design">
+                            <h3>Logo Design</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+		<section id="portfolio" class="portfolio_section padding">
+			<div class="container">
+				<div class="section_heading align-center mb-40">
+					<h2>My Portfolio</h2>
+					<p>Some of my work samples from the past year</p>
+				</div>
+				<ul class="portfolio_filter mb-30">
+                    <li class="active" data-filter="*">All</li>
+                    <li data-filter=".website-html">Website HTML</li>
+                    <li data-filter=".website-design">Website Design</li>
+                    <li data-filter=".website-design-and-html">Website Design & HTML</li>
+                    <li data-filter=".mobile-app-design">Mobile App Design</li>
+                    <li data-filter=".logo-design">Logo Design</li>
+                </ul>
+                <ul class="portfolio_items grid">
+					<li class="col-sm-4 col-xs-6 xs-padding single_item website-html">
+                		<figure class="portfolio_item">
+                            <a class="external-link" href="http://meethet.staging-yondr.be/" target="_blank"><i class="icon_link_alt"></i>Meet Het</a>
+                			<img src="img/work-19.jpg" alt="Portfolio Item">
+                			<div class="hover_effect">
+                			    <a href="img/work-19-big.jpg" class="img_popup">
+                			        <div class="table-cell">
+                			            <img src="img/zoom.png" alt="Zoom">
+                			        </div>
+                			    </a>
+                			</div>
+                		</figure>
+                	</li>
+                    <li class="col-sm-4 col-xs-6 xs-padding single_item website-html">
+                		<figure class="portfolio_item">
+                            <a class="external-link" href="https://www.interview-expert.com/" target="_blank"><i class="icon_link_alt"></i>Interview Expert</a>
+                			<img src="img/work-20.jpg" alt="Portfolio Item">
+                			<div class="hover_effect">
+                			    <a href="img/work-20-big.jpg" class="img_popup">
+                			        <div class="table-cell">
+                			            <img src="img/zoom.png" alt="Zoom">
+                			        </div>
+                			    </a>
+                			</div>
+                		</figure>
+                	</li>
+                    <li class="col-sm-4 col-xs-6 xs-padding single_item website-html">
+                		<figure class="portfolio_item">
+                            <a class="external-link" href="https://www.aimnotary.com/" target="_blank"><i class="icon_link_alt"></i>Aim Notary</a>
+                			<img src="img/work-4.jpg" alt="Portfolio Item">
+                			<div class="hover_effect">
+                			    <a href="img/work-4-big.jpg" class="img_popup">
+                			        <div class="table-cell">
+                			            <img src="img/zoom.png" alt="Zoom">
+                			        </div>
+                			    </a>
+                			</div>
+                		</figure>
+                	</li>
+                    <li class="col-sm-4 col-xs-6 xs-padding single_item website-html">
+                		<figure class="portfolio_item">
+                            <a class="external-link" href="https://www.palsonsderma.com/" target="_blank"><i class="icon_link_alt"></i>Palsonsderma</a>
+                			<img src="img/work-3.jpg" alt="Portfolio Item">
+                			<div class="hover_effect">
+                			    <a href="img/work-3-big.jpg" class="img_popup">
+                			        <div class="table-cell">
+                			            <img src="img/zoom.png" alt="Zoom">
+                			        </div>
+                			    </a>
+                			</div>
+                		</figure>
+                	</li>
+                    <li class="col-sm-4 col-xs-6 xs-padding single_item website-html">
+                		<figure class="portfolio_item">
+                            <a class="external-link" href="https://www.gyaanmart.com/" target="_blank"><i class="icon_link_alt"></i>Gyaanmart</a>
+                			<img src="img/work-22.jpg" alt="Portfolio Item">
+                			<div class="hover_effect">
+                			    <a href="img/work-22-big.jpg" class="img_popup">
+                			        <div class="table-cell">
+                			            <img src="img/zoom.png" alt="Zoom">
+                			        </div>
+                			    </a>
+                			</div>
+                		</figure>
+                	</li>
+                    <li class="col-sm-4 col-xs-6 xs-padding single_item website-html">
+                		<figure class="portfolio_item">
+                            <a class="external-link" href="https://www.nkyauto.com/" target="_blank"><i class="icon_link_alt"></i>Nkyauto</a>
+                			<img src="img/work-23.jpg" alt="Portfolio Item">
+                			<div class="hover_effect">
+                			    <a href="img/work-23-big.jpg" class="img_popup">
+                			        <div class="table-cell">
+                			            <img src="img/zoom.png" alt="Zoom">
+                			        </div>
+                			    </a>
+                			</div>
+                		</figure>
+                	</li>
+                    <li class="col-sm-4 col-xs-6 xs-padding single_item website-html">
+                		<figure class="portfolio_item">
+                            <a class="external-link" href="https://www.importikaah.com/" target="_blank"><i class="icon_link_alt"></i>Importikaah</a>
+                			<img src="img/work-24.jpg" alt="Portfolio Item">
+                			<div class="hover_effect">
+                			    <a href="img/work-24-big.jpg" class="img_popup">
+                			        <div class="table-cell">
+                			            <img src="img/zoom.png" alt="Zoom">
+                			        </div>
+                			    </a>
+                			</div>
+                		</figure>
+                	</li>
+                    <li class="col-sm-4 col-xs-6 xs-padding single_item website-html">
+                		<figure class="portfolio_item">
+                            <a class="external-link" href="https://www.machinology.in/" target="_blank"><i class="icon_link_alt"></i>Machinology</a>
+                			<img src="img/work-26.jpg" alt="Portfolio Item">
+                			<div class="hover_effect">
+                			    <a href="img/work-26-big.jpg" class="img_popup">
+                			        <div class="table-cell">
+                			            <img src="img/zoom.png" alt="Zoom">
+                			        </div>
+                			    </a>
+                			</div>
+                		</figure>
+                	</li>
+                    <li class="col-sm-4 col-xs-6 xs-padding single_item website-html">
+                		<figure class="portfolio_item">
+                            <a class="external-link" href="https://www.ezwosb.com/" target="_blank"><i class="icon_link_alt"></i>EZWOSB</a>
+                			<img src="img/work-27.jpg" alt="Portfolio Item">
+                			<div class="hover_effect">
+                			    <a href="img/work-27-big.jpg" class="img_popup">
+                			        <div class="table-cell">
+                			            <img src="img/zoom.png" alt="Zoom">
+                			        </div>
+                			    </a>
+                			</div>
+                		</figure>
+                	</li>
+                    <li class="col-sm-4 col-xs-6 xs-padding single_item website-html">
+                		<figure class="portfolio_item">
+                            <a class="external-link" href="https://www.gsaschedulecontract.com/" target="_blank"><i class="icon_link_alt"></i>GSA Schedulecontract</a>
+                			<img src="img/work-28.jpg" alt="Portfolio Item">
+                			<div class="hover_effect">
+                			    <a href="img/work-28-big.jpg" class="img_popup">
+                			        <div class="table-cell">
+                			            <img src="img/zoom.png" alt="Zoom">
+                			        </div>
+                			    </a>
+                			</div>
+                		</figure>
+                	</li>
+                    <li class="col-sm-4 col-xs-6 xs-padding single_item website-html">
+                		<figure class="portfolio_item">
+                            <a class="external-link" href="https://www.neolayr.com/" target="_blank"><i class="icon_link_alt"></i>Neolayr</a>
+                			<img src="img/work-29.jpg" alt="Portfolio Item">
+                			<div class="hover_effect">
+                			    <a href="img/work-29-big.jpg" class="img_popup">
+                			        <div class="table-cell">
+                			            <img src="img/zoom.png" alt="Zoom">
+                			        </div>
+                			    </a>
+                			</div>
+                		</figure>
+                	</li>
+                    <li class="col-sm-4 col-xs-6 xs-padding single_item website-html">
+                		<figure class="portfolio_item">
+                            <a class="external-link" href="https://www.trilliumsupplies.com/" target="_blank"><i class="icon_link_alt"></i>Trillium Supplies Solutions Inc.</a>
+                			<img src="img/work-30.jpg" alt="Portfolio Item">
+                			<div class="hover_effect">
+                			    <a href="img/work-30-big.jpg" class="img_popup">
+                			        <div class="table-cell">
+                			            <img src="img/zoom.png" alt="Zoom">
+                			        </div>
+                			    </a>
+                			</div>
+                		</figure>
+                	</li>
+                    <li class="col-sm-4 col-xs-6 xs-padding single_item website-html">
+                		<figure class="portfolio_item">
+                            <a class="external-link" href="https://www.rentalrvcincinnati.com/" target="_blank"><i class="icon_link_alt"></i>Rental RV Cincinnati</a>
+                			<img src="img/work-31.jpg" alt="Portfolio Item">
+                			<div class="hover_effect">
+                			    <a href="img/work-31-big.jpg" class="img_popup">
+                			        <div class="table-cell">
+                			            <img src="img/zoom.png" alt="Zoom">
+                			        </div>
+                			    </a>
+                			</div>
+                		</figure>
+                	</li>
+                    <li class="col-sm-4 col-xs-6 xs-padding single_item website-html">
+                		<figure class="portfolio_item">
+                            <a class="external-link" href="https://bgtgulf.com/" target="_blank"><i class="icon_link_alt"></i>BGT Gulf</a>
+                			<img src="img/work-32.jpg" alt="Portfolio Item">
+                			<div class="hover_effect">
+                			    <a href="img/work-32-big.jpg" class="img_popup">
+                			        <div class="table-cell">
+                			            <img src="img/zoom.png" alt="Zoom">
+                			        </div>
+                			    </a>
+                			</div>
+                		</figure>
+                	</li>
+                    <li class="col-sm-4 col-xs-6 xs-padding single_item website-html">
+                		<figure class="portfolio_item">
+                            <a class="external-link" href="http://www.bashundhara-ttc.com/" target="_blank"><i class="icon_link_alt"></i>Bashundhara Training & Testing Center</a>
+                			<img src="img/work-33.jpg" alt="Portfolio Item">
+                			<div class="hover_effect">
+                			    <a href="img/work-33-big.jpg" class="img_popup">
+                			        <div class="table-cell">
+                			            <img src="img/zoom.png" alt="Zoom">
+                			        </div>
+                			    </a>
+                			</div>
+                		</figure>
+                	</li>
+                    <li class="col-sm-4 col-xs-6 xs-padding single_item website-design website-design-and-html">
+                		<figure class="portfolio_item">
+                            <a class="external-link" href="https://www.governmentmarketing.com/" target="_blank"><i class="icon_link_alt"></i>Governmentmarketing</a>
+                			<img src="img/work-21.jpg" alt="Portfolio Item">
+                			<div class="hover_effect">
+                			    <a href="img/work-21-big.jpg" class="img_popup">
+                			        <div class="table-cell">
+                			            <img src="img/zoom.png" alt="Zoom">
+                			        </div>
+                			    </a>
+                			</div>
+                		</figure>
+                	</li>
+                    <li class="col-sm-4 col-xs-6 xs-padding single_item website-design website-design-and-html">
+                		<figure class="portfolio_item">
+                            <a class="external-link" href="https://www.ez8a.com/" target="_blank"><i class="icon_link_alt"></i>ez8a</a>
+                			<img src="img/work-1.jpg" alt="Portfolio Item">
+                			<div class="hover_effect">
+                			    <a href="img/work-1-big.jpg" class="img_popup">
+                			        <div class="table-cell">
+                			            <img src="img/zoom.png" alt="Zoom">
+                			        </div>
+                			    </a>
+                			</div>
+                		</figure>
+                	</li>
+                    <li class="col-sm-4 col-xs-6 xs-padding single_item website-design website-design-and-html">
+                		<figure class="portfolio_item">
+                            <a class="external-link" href="https://www.tcwhiskey.com" target="_blank"><i class="icon_link_alt"></i>Traverse City Whiskey Co.</a>
+                			<img src="img/work-25.jpg" alt="Portfolio Item">
+                			<div class="hover_effect">
+                			    <a href="img/work-25-big.jpg" class="img_popup">
+                			        <div class="table-cell">
+                			            <img src="img/zoom.png" alt="Zoom">
+                			        </div>
+                			    </a>
+                			</div>
+                		</figure>
+                	</li>
+                    <li class="col-sm-4 col-xs-6 xs-padding single_item website-design website-design-and-html">
+                		<figure class="portfolio_item">
+                            <a class="external-link" href="http://www.moneytails.com/" target="_blank"><i class="icon_link_alt"></i>Moneytails</a>
+                			<img src="img/work-2.jpg" alt="Portfolio Item">
+                			<div class="hover_effect">
+                			    <a href="img/work-2-big.jpg" class="img_popup">
+                			        <div class="table-cell">
+                			            <img src="img/zoom.png" alt="Zoom">
+                			        </div>
+                			    </a>
+                			</div>
+                		</figure>
+                	</li>
+                    <li class="col-sm-4 col-xs-6 xs-padding single_item website-design">
+                		<figure class="portfolio_item">
+                            <!-- <a class="external-link" href="javascript:void(0);" target="_blank"><i class="icon_link_alt"></i>SKS Pharma</a> -->
+                            <a class="external-link"><i class="icon_link_alt"></i>SKS Pharma</a>
+                			<img src="img/work-34.jpg" alt="Portfolio Item">
+                			<div class="hover_effect">
+                			    <a href="img/work-34-big.jpg" class="img_popup">
+                			        <div class="table-cell">
+                			            <img src="img/zoom.png" alt="Zoom">
+                			        </div>
+                			    </a>
+                			</div>
+                		</figure>
+                	</li>
+                    <li class="col-sm-4 col-xs-6 xs-padding single_item mobile-app-design">
+                		<figure class="portfolio_item">
+                            <a class="external-link" href="https://apps.apple.com/us/app/aim-notary/id1560841365" target="_blank"><i class="icon_link_alt"></i>Aim Notary</a>
+                			<img src="img/work-5.jpg" alt="Portfolio Item">
+                			<div class="hover_effect">
+                			    <a href="img/work-5-big.jpg" class="img_popup">
+                			        <div class="table-cell">
+                			            <img src="img/zoom.png" alt="Zoom">
+                			        </div>
+                			    </a>
+                			</div>
+                		</figure>
+                	</li>
+                    <li class="col-sm-4 col-xs-6 xs-padding single_item mobile-app-design">
+                		<figure class="portfolio_item">
+                            <a class="external-link" href="https://play.google.com/store/apps/details?id=com.econstra.orgn.ag_app" target="_blank"><i class="icon_link_alt"></i>Gyaanmart</a>
+                			<img src="img/work-6.jpg" alt="Portfolio Item">
+                			<div class="hover_effect">
+                			    <a href="img/work-6-big.jpg" class="img_popup">
+                			        <div class="table-cell">
+                			            <img src="img/zoom.png" alt="Zoom">
+                			        </div>
+                			    </a>
+                			</div>
+                		</figure>
+                	</li>
+                    <li class="col-sm-4 col-xs-6 xs-padding single_item mobile-app-design">
+                		<figure class="portfolio_item">
+                            <a class="external-link" href="https://play.google.com/store/apps/details?id=com.econstra.orgn.laundryapp" target="_blank"><i class="icon_link_alt"></i>Press Guy</a>
+                			<img src="img/work-7.jpg" alt="Portfolio Item">
+                			<div class="hover_effect">
+                			    <a href="img/work-7-big.jpg" class="img_popup">
+                			        <div class="table-cell">
+                			            <img src="img/zoom.png" alt="Zoom">
+                			        </div>
+                			    </a>
+                			</div>
+                		</figure>
+                	</li>
+                    <li class="col-sm-4 col-xs-6 xs-padding single_item mobile-app-design">
+                		<figure class="portfolio_item">
+                            <a class="external-link" href="https://play.google.com/store/apps/details?id=com.econ.bigbitebox" target="_blank"><i class="icon_link_alt"></i>Big Bite Box</a>
+                			<img src="img/work-8.jpg" alt="Portfolio Item">
+                			<div class="hover_effect">
+                			    <a href="img/work-8-big.jpg" class="img_popup">
+                			        <div class="table-cell">
+                			            <img src="img/zoom.png" alt="Zoom">
+                			        </div>
+                			    </a>
+                			</div>
+                		</figure>
+                	</li>
+                    <li class="col-sm-4 col-xs-6 xs-padding single_item mobile-app-design">
+                		<figure class="portfolio_item">
+                            <a class="external-link" href="http://econstrademosite.com/mockup/nix-salon-app-mockup/mockup_nix_salon_app_v1.html" target="_blank"><i class="icon_link_alt"></i>Nix Salon</a>
+                			<img src="img/work-9.jpg" alt="Portfolio Item">
+                			<div class="hover_effect">
+                			    <a href="img/work-9-big.jpg" class="img_popup">
+                			        <div class="table-cell">
+                			            <img src="img/zoom.png" alt="Zoom">
+                			        </div>
+                			    </a>
+                			</div>
+                		</figure>
+                	</li>
+                    <li class="col-sm-4 col-xs-6 xs-padding single_item mobile-app-design">
+                		<figure class="portfolio_item">
+                            <a class="external-link" href="http://econstrademosite.com/mockup/twiclo-app-mockup/mockup-v1.html" target="_blank"><i class="icon_link_alt"></i>Twiclo</a>
+                			<img src="img/work-35.jpg" alt="Portfolio Item">
+                			<div class="hover_effect">
+                			    <a href="img/work-35-big.jpg" class="img_popup">
+                			        <div class="table-cell">
+                			            <img src="img/zoom.png" alt="Zoom">
+                			        </div>
+                			    </a>
+                			</div>
+                		</figure>
+                	</li>
+                    <li class="col-sm-4 col-xs-6 xs-padding single_item mobile-app-design">
+                		<figure class="portfolio_item">
+                            <a class="external-link" href="http://econstrademosite.com/mockup/twiclo-app-mockup/mockup-v1.html" target="_blank"><i class="icon_link_alt"></i>Delivery App</a>
+                			<img src="img/work-36.jpg" alt="Portfolio Item">
+                			<div class="hover_effect">
+                			    <a href="img/work-36-big.jpg" class="img_popup">
+                			        <div class="table-cell">
+                			            <img src="img/zoom.png" alt="Zoom">
+                			        </div>
+                			    </a>
+                			</div>
+                		</figure>
+                	</li>
+                    <li class="col-sm-4 col-xs-6 xs-padding single_item mobile-app-design">
+                		<figure class="portfolio_item">
+                            <a class="external-link" href="https://play.google.com/store/apps/details?id=in.app.bookbhook" target="_blank"><i class="icon_link_alt"></i>Book Bhook</a>
+                			<img src="img/work-37.jpg" alt="Portfolio Item">
+                			<div class="hover_effect">
+                			    <a href="img/work-37-big.jpg" class="img_popup">
+                			        <div class="table-cell">
+                			            <img src="img/zoom.png" alt="Zoom">
+                			        </div>
+                			    </a>
+                			</div>
+                		</figure>
+                	</li>
+                    <li class="col-sm-4 col-xs-6 xs-padding single_item mobile-app-design">
+                		<figure class="portfolio_item">
+                            <a class="external-link" href="https://play.google.com/store/apps/details?id=com.econ.kifytea" target="_blank"><i class="icon_link_alt"></i>Kify Tea</a>
+                			<img src="img/work-38.jpg" alt="Portfolio Item">
+                			<div class="hover_effect">
+                			    <a href="img/work-38-big.jpg" class="img_popup">
+                			        <div class="table-cell">
+                			            <img src="img/zoom.png" alt="Zoom">
+                			        </div>
+                			    </a>
+                			</div>
+                		</figure>
+                	</li>
+                    <li class="col-sm-4 col-xs-6 xs-padding single_item mobile-app-design">
+                		<figure class="portfolio_item">
+                            <a class="external-link" href="https://play.google.com/store/apps/details?id=com.econstra.mac.tfun" target="_blank"><i class="icon_link_alt"></i>Tfun</a>
+                			<img src="img/work-39.jpg" alt="Portfolio Item">
+                			<div class="hover_effect">
+                			    <a href="img/work-39-big.jpg" class="img_popup">
+                			        <div class="table-cell">
+                			            <img src="img/zoom.png" alt="Zoom">
+                			        </div>
+                			    </a>
+                			</div>
+                		</figure>
+                	</li>
+                    <li class="col-sm-4 col-xs-6 xs-padding single_item mobile-app-design">
+                		<figure class="portfolio_item">
+                            <a class="external-link" href="https://play.google.com/store/apps/details?id=com.econstra.orgn.ag_app" target="_blank"><i class="icon_link_alt"></i>Advicegate</a>
+                			<img src="img/work-40.jpg" alt="Portfolio Item">
+                			<div class="hover_effect">
+                			    <a href="img/work-40-big.jpg" class="img_popup">
+                			        <div class="table-cell">
+                			            <img src="img/zoom.png" alt="Zoom">
+                			        </div>
+                			    </a>
+                			</div>
+                		</figure>
+                	</li>
+                    <li class="col-sm-4 col-xs-6 xs-padding single_item logo-design">
+                		<figure class="portfolio_item">
+                            <a class="external-link" href="http://www.moneytails.com/" target="_blank"><i class="icon_link_alt"></i>Moneytails</a>
+                			<img src="img/work-10.jpg" alt="Portfolio Item">
+                			<div class="hover_effect">
+                			    <a href="img/work-10.jpg" class="img_popup">
+                			        <div class="table-cell">
+                			            <img src="img/zoom.png" alt="Zoom">
+                			        </div>
+                			    </a>
+                			</div>
+                		</figure>
+                	</li>
+                    <li class="col-sm-4 col-xs-6 xs-padding single_item logo-design">
+                		<figure class="portfolio_item">
+                            <a class="external-link" href="http://econstrademosite.com/mockup/nix-salon-app-mockup/mockup_nix_salon_app_v1.html" target="_blank"><i class="icon_link_alt"></i>Nix Salon</a>
+                			<img src="img/work-11.jpg" alt="Portfolio Item">
+                			<div class="hover_effect">
+                			    <a href="img/work-11.jpg" class="img_popup">
+                			        <div class="table-cell">
+                			            <img src="img/zoom.png" alt="Zoom">
+                			        </div>
+                			    </a>
+                			</div>
+                		</figure>
+                	</li>
+                    <li class="col-sm-4 col-xs-6 xs-padding single_item logo-design">
+                		<figure class="portfolio_item">
+                            <a class="external-link" href="https://www.gyaanmart.com/" target="_blank"><i class="icon_link_alt"></i>Gyaanmart</a>
+                			<img src="img/work-12.jpg" alt="Portfolio Item">
+                			<div class="hover_effect">
+                			    <a href="img/work-12.jpg" class="img_popup">
+                			        <div class="table-cell">
+                			            <img src="img/zoom.png" alt="Zoom">
+                			        </div>
+                			    </a>
+                			</div>
+                		</figure>
+                	</li>
+					<li class="col-sm-4 col-xs-6 xs-padding single_item logo-design">
+                		<figure class="portfolio_item">
+                            <a class="external-link" href="https://www.facebook.com/debnathinternational" target="_blank"><i class="icon_link_alt"></i>Debnath International</a>
+                			<img src="img/work-13.jpg" alt="Portfolio Item">
+                			<div class="hover_effect">
+                			    <a href="img/work-13.jpg" class="img_popup">
+                			        <div class="table-cell">
+                			            <img src="img/zoom.png" alt="Zoom">
+                			        </div>
+                			    </a>
+                			</div>
+                		</figure>
+                	</li>
+					<li class="col-sm-4 col-xs-6 xs-padding single_item logo-design">
+                		<figure class="portfolio_item">
+                            <a class="external-link" href="https://www.facebook.com/KBCCONSULTANT" target="_blank"><i class="icon_link_alt"></i>KBC Consultant</a>
+                			<img src="img/work-14.jpg" alt="Portfolio Item">
+                			<div class="hover_effect">
+                			    <a href="img/work-14.jpg" class="img_popup">
+                			        <div class="table-cell">
+                			            <img src="img/zoom.png" alt="Zoom">
+                			        </div>
+                			    </a>
+                			</div>
+                		</figure>
+                	</li>
+					<li class="col-sm-4 col-xs-6 xs-padding single_item logo-design">
+                		<figure class="portfolio_item">
+                            <a class="external-link" href="http://ddproducts.co.in/" target="_blank"><i class="icon_link_alt"></i>DD Products</a>
+                			<img src="img/work-15.jpg" alt="Portfolio Item">
+                			<div class="hover_effect">
+                			    <a href="img/work-15.jpg" class="img_popup">
+                			        <div class="table-cell">
+                			            <img src="img/zoom.png" alt="Zoom">
+                			        </div>
+                			    </a>
+                			</div>
+                		</figure>
+                	</li>
+					<li class="col-sm-4 col-xs-6 xs-padding single_item logo-design">
+                		<figure class="portfolio_item">
+                            <a class="external-link" href="http://amrpay.in/" target="_blank"><i class="icon_link_alt"></i>AMR Pay</a>
+                			<img src="img/work-16.jpg" alt="Portfolio Item">
+                			<div class="hover_effect">
+                			    <a href="img/work-16.jpg" class="img_popup">
+                			        <div class="table-cell">
+                			            <img src="img/zoom.png" alt="Zoom">
+                			        </div>
+                			    </a>
+                			</div>
+                		</figure>
+                	</li>
+					<li class="col-sm-4 col-xs-6 xs-padding single_item logo-design">
+                		<figure class="portfolio_item">
+                            <!-- <a class="external-link" href="javascript:void(0);" target="_blank"><i class="icon_link_alt"></i>Anjali Tour & Travels</a> -->
+                            <a class="external-link"><i class="icon_link_alt"></i>Anjali Tour & Travels</a>
+                			<img src="img/work-17.jpg" alt="Portfolio Item">
+                			<div class="hover_effect">
+                			    <a href="img/work-17.jpg" class="img_popup">
+                			        <div class="table-cell">
+                			            <img src="img/zoom.png" alt="Zoom">
+                			        </div>
+                			    </a>
+                			</div>
+                		</figure>
+                	</li>
+					<li class="col-sm-4 col-xs-6 xs-padding single_item logo-design">
+                		<figure class="portfolio_item">
+                            <!-- <a class="external-link" href="javascript:void(0);" target="_blank"><i class="icon_link_alt"></i>Yugobarta</a> -->
+                            <a class="external-link"><i class="icon_link_alt"></i>Yugobarta</a>
+                			<img src="img/work-18.jpg" alt="Portfolio Item">
+                			<div class="hover_effect">
+                			    <a href="img/work-18.jpg" class="img_popup">
+                			        <div class="table-cell">
+                			            <img src="img/zoom.png" alt="Zoom">
+                			        </div>
+                			    </a>
+                			</div>
+                		</figure>
+                	</li>
+                </ul>
+			</div>
+		</section>
+        <section id="contact" class="contact_section bg-grey bd-bottom padding" style="padding: 120px 0;">
+            <div class="container">
+                <div class="contact_info align-center">
+                    <h2>Let’s Work Together</h2>
+						<p>Let's build something interesting together!</p>
+						<h2>OR</h2>
+						<div class="contact-btn-cont">
+							<a class="thinny_btn big" href="mailto:nath.tapas55@gmail.com"><i class="far fa-envelope"></i> Email</a>
+							<a class="thinny_btn big" href="tel:+91-9732793100"><i class="fas fa-phone-alt"></i> Phone</a>
+							<a class="thinny_btn big" href="https://wa.me/+91-9732793100" target="_blank"><i class="fab fa-whatsapp"></i> Whatsapp</a>
+						</div>
+						<p style="margin-top: 30px;">me if you have any other questions.</p>
+                </div>
+            </div>
+        </section>
+		<footer class="footer_section bg-grey">
+			<div class="container">
+				<div class="col-xs-6 xs-padding xs-text-center">
+				    <div class="copyright">&copy; 2021 All Rights Reserved <a href="www.github.com/tapas1985" target="_blank" style="color: #fff;">www.github.com/tapas1985</a></div>
+				</div>
+				<div class="col-xs-6 xs-padding">
+				    <ul class="footer_social xs-text-center">
+				        <li><a href="https://www.facebook.com/tapasnath1985" target="_blank"><i class="social_facebook"></i></a></li>
+				        <li><a href="https://twitter.com/tapas1985" target="_blank"><i class="social_twitter"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/tapas-nath" target="_blank"><i class="social_linkedin"></i></a></li>
+                        <li><a href="https://www.deviantart.com/tapas1985" target="_blank"><i class="social_deviantart"></i></a></li>
+				        <li><a href="https://www.instagram.com/tapaswebdesigner" target="_blank"><i class="social_instagram"></i></a></li>
+				        <li><a href="https://in.pinterest.com/tapasnath" target="_blank"><i class="social_pinterest"></i></a></li>
+				        <li><a href="https://join.skype.com/invite/n69daAotjaqz" target="_blank"><i class="social_skype"></i></a></li>
+				    </ul>
+				</div>
+			</div>
+		</footer>
+		<a data-scroll href="#header" id="scroll-to-top"><i class="arrow_carrot-up"></i></a>
+		<script src="js/vendor/jquery-1.12.4.min.js"></script>
+		<script src="js/vendor/bootstrap.min.js"></script>
+        <script src="js/vendor/imagesloaded.pkgd.min.js"></script>
+		<script src="js/vendor/owl.carousel.min.js"></script>
+		<script src="js/vendor/jquery.isotope.v3.0.2.js"></script>
+		<script src="js/vendor/smooth-scroll.min.js"></script>
+		<script src="js/vendor/typed.min.js"></script>
+		<script src="js/vendor/jquery.nicescroll.min.js"></script>
+		<script src="js/vendor/venobox.min.js"></script>
+		<script src="js/contact.js"></script>
+		<script src="js/main.js"></script>
+    </body>
+</html>
